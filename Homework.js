@@ -36,9 +36,9 @@ console.log('product of numbers in array',product);
 let num4 = [2,4,3,5];
 let add = [];
 for (var i = 0; i <= num4.length - 1; i++) {
-    add = num4[i]+5;
-    console.log(add);
+    add.push(num4[i] + 5);
 }
+console.log('Adding 5 to each element',add);
 
 
 //WAP to find squuare of each element present in an array
